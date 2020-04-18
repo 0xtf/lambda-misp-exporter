@@ -5,7 +5,7 @@ Export NIDS IOC's from a MISP instance
 
 - Create an S3 bucket to save the NIDS rules
 - Create a Lambda [execution role](./iam-role.json)
-- Deploy the [deployment package](deployment-package.zip) in a Node 12 environment
+- [Deploy](.imgs/upload.png) the [deployment package](deployment-package.zip) in a Node 12 environment
 - Create a CloudWatch Event Rule as [per the image](cwe-rule.png)
 
 The function requires 4 variables to be set:
